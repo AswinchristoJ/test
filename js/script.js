@@ -106,7 +106,7 @@ $('document').ready(() => {
             closeText = `"Game Drawn!"\n-------\n`
         }
 
-        Swal({
+        Swal.fire({
             title: closeText,
             animation: false,
             customClass: 'animated tada',
